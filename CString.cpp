@@ -665,7 +665,7 @@ void CString::remove(const char* strFind)
 
   void CString::replace(const __FlashStringHelper* strFind, const char* strReplace, const uint16_t nStartFrom)
   {
-    uint16_t nLengthMove = 0, nNewLength = 0;
+//    uint16_t nLengthMove = 0, nNewLength = 0;
     const uint16_t nLength = 512;
     char strTempBuff[nLength];
   
@@ -697,7 +697,7 @@ void CString::remove(const char* strFind)
 
 void CString::replace(const char* strFind, const char* strReplace, const uint16_t nStartFrom)
 {
-  uint16_t nLengthMove = 0, nNewLength = 0;
+//  uint16_t  nNewLength = 0;  //nLengthMove = 0; //
   const uint16_t nLength = 512;
   char strTempBuff[nLength];
 
